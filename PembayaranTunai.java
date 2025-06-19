@@ -1,8 +1,8 @@
-// Nama File: PembayaranTunai.java
 public class PembayaranTunai implements MetodePembayaran {
     @Override
-    public void prosesPembayaran(double total) {
-        System.out.println("\nPembayaran sebesar Rp" + String.format("%,.0f", total) + " dengan Tunai berhasil.");
-        System.out.println("Silakan siapkan uang pas.");
+    public String prosesPembayaran(double total) {
+        String pesan = "Pembayaran sebesar Rp" + String.format("%,.0f", total) + " dengan Tunai berhasil.\n";
+        pesan += "Silakan siapkan uang pas.";
+        return pesan;
     }
 }

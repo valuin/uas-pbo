@@ -1,4 +1,3 @@
-// Nama File: ProdukKeperluanMandi.java
 public class ProdukKeperluanMandi extends Produk {
     public ProdukKeperluanMandi(String nama, double harga) {
         super(nama, harga, "Keperluan Mandi");
